@@ -10,16 +10,11 @@
 ## 安装
 
 ```bash
-# 将 nwafu-paper 目录放入 Claude Code 的 skills 目录
-cp -r nwafu-paper ~/.claude/skills/
+# 克隆到 Claude Code 的 skills 目录
+git clone https://github.com/2p1endid/nwafu-paper.git ~/.claude/skills/nwafu-paper
 ```
 
-或使用 `.skill` 文件安装：
-
-```bash
-# 在 Claude Code 会话中输入
-/skill:install nwafu-paper.skill
-```
+安装后重启 Claude Code，即可通过 `/nwafu-paper` 或提及"西农论文格式"触发。
 
 ## 用法
 
